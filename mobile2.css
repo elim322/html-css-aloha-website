@@ -1,0 +1,48 @@
+/* navigation bar  */
+
+header {
+    display: flex;
+    flex: wrap;
+    text-align: center;
+}
+
+.nav-logo {
+    flex-wrap: wrap;
+}
+
+.nav-logo img {
+    max-width: 120px;
+}
+
+.aloha-logo {
+    align-self: flex-start;
+    display: block;
+    float: left;
+    height: 40px;
+    max-width: 120px;
+    text-align: left;
+}
+
+.cart img {
+    max-width: 120px;
+    align-self: flex-end;
+}
+
+img {
+    height: auto;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.navigation {
+    flex-wrap: wrap;
+    list-style-type: none;
+    border-top: 1px solid #d7d7d7;
+    padding-top: .5rem;
+}
+
+@media screen and (min-width 600px) {}
