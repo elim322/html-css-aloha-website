@@ -1,211 +1,269 @@
-head {
-    display: inline-block;
+/*navigation bar*/
+
+* {
+  box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-}
-
-
-/* Navigation bar  */
-
-.header {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    text-align: center;
+.parent-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
 }
 
 .nav-logo {
-    display: flex;
-    order: 1;
-    flex: 0 1 50%;
-    align-self: flex-start;
-    height: auto;
-    width: 50%;
-}
-
-.nav-options {
-    order: 3;
-    text-align: center;
-    flex: 1 1;
-}
-
-.cart {
-    display: flex;
-    align-self: flex-end;
-    order: 2;
-    flex: 0 1 50%;
-    text-align: right;
-    min-width: 200px;
-    max-width: 100%;
-}
-
-.nav-logo.aloha-logo {
-    border: 0;
+  padding-left: 5px;
+  order: 1;
 }
 
 .aloha-logo {
-    display: flex;
-    align-self: flex-start;
-    display: block;
-    /* float: left; */
-    height: 40px;
-    /* max-width: 120px; */
-    text-align: left;
-    min-width: 200px;
-    max-width: 100%;
+  height: 40px;
 }
 
-.shopping-cart {
-    align-self: flex-end;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-content: space-between;
-    display: block;
-    width: 50%;
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navigation {
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* order: 3; */
-    align-self: center;
-    text-align: center;
-    /* flex-direction: row; */
-    list-style-type: none;
-    border-top: 1px solid #d7d7d7;
-    padding-top: .5rem;
-    vertical-align: baseline;
+  list-style: none;
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top: solid 1px grey; 
 }
 
 .navigation li {
-    padding: .5rem;
+  display: inline-block;
+  padding: 0 20px 0 20px;
 }
 
-a {
-    box-sizing: border-box;
-    margin: 0 auto;
+.navigation li a {
+  text-decoration: none;
+  color: #e2574c;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
 }
 
+.navigation li a:hover {
+  color: rgb(169, 72, 60);
+}
 
+.nav-options {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex: 1 0 auto;
+  order: 3;
+  border: 0;
+}
+
+.cart {
+  border: 0;
+  min-width: 100px;
+  order: 2;
+}
+
+.shopping-cart {
+  width: 50%;
+  height: auto;
+}
 /* top banner */
 
 .hero-banner {
-    /* border: 1px dashed black; */
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
-    background-position: center, center bottom, center;
-    background-size: cover, 300px, cover;
-    background-repeat: no-repeat;
-    padding: 400px 0;
-    height: 175px;
-    /* position: relative;
-    display: block; */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(project-01-files/images/banner-girl.png),
+    url(project-01-files/images/flower-bkgd.jpg);
+  background-position: center, center bottom, 50%;
+  background-size: cover, 300px, cover;
+  background-repeat: no-repeat;
+  padding: 400px 0;
+  height: 175px;
+  position: relative;
 }
 
 .banner-title {
-    text-align: center;
-    font-size: 1.5rem;
-    width: 1240px;
-    margin: 0 auto;
-    color: white;
-    font-family: "Playfair Display", Arial, serif;
-    font-weight: 400px;
-    /* /* transform: translate(-50%, -50%); */
-    /* position: absolute; */
+  text-align: center;
+  font-size: 200%;
+  width: 1240px;
+  margin: 0 auto;
+  color: white;
+  font-family: "Playfair Display", Arial, serif;
+  font-weight: 400px;
+  position: absolute;
 }
 
 .background-info {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 2%;
-    font-family: "Playfair Display", serif
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+  font-family: "Playfair Display", serif;
+}
+
+.collection {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .hand-crafted {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 2rem;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 .heavy {
-    font-style: normal;
-    font-weight: 700px;
+  font-style: normal;
+  font-weight: 700px;
 }
-
-
 /* Category Boxes */
-
 .category-list {
-    display: flex;
-    display: block;
-    flex-direction: column;
-    list-style-type: none;
-    flex-wrap: wrap;
-    text-align: center;
+  display: flex;
+  width: 100%;
+  /* height: 40rem; */
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
 }
 
 .mens {
-    background-image: url(project-01-files/images/mens-category.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100px;
-    width: 300px;
+  background-image: url(project-01-files/images/mens-category.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
 }
 
 .trends {
-    background-image: url(project-01-files/images/trends-category.jpg);
-    background-position: center left;
-    background-size: cover;
-    height: 100px;
-    width: 200px;
+  background-image: url(project-01-files/images/trends-category.jpg);
+  background-position: right;
+  background-size: cover;
+  border: 3px solid white;
+}
+
+.glasses {
+  background-image: url(project-01-files/images/glasses-category.jpg);
+  background-position: left;
+  background-size: cover;
+  border: 3px solid white;
+}
+
+.sale {
+  background-image: url(project-01-files/images/sale-category.jpg);
+  background-position: right;
+  background-size: cover;
+  border: 3px solid white;
+}
+
+.bags {
+  background-image: url(project-01-files/images/bags-category.jpg);
+  background-position: left;
+  background-size: cover;
+  border: 3px solid white;
+}
+
+.womens {
+  background-image: url(project-01-files/images/womens-category.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+}
+
+.cat-item {
+  width: 50%;
+  height: 50vw;
+}
+
+.cat-item:first-child {
+  width: 100%;
+}
+
+.cat-item:last-child {
+  width: 100%;
+}
+
+.category-name {
 }
 
 @media screen and (min-width: 600px) {
-    .nav-logo {
-        width: 25px;
-    }
-    .cart {
-        width: 25px;
-    }
+  .nav-logo {
+    width: 25px;
+    text-align: left; 
+  }
+  .cart {
+    width: 25px;
+    text-align: right;
+    order: 3;
+  }
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    margin-left: 30%;
+    border-top: 1px solid white; 
+  }
+  .navigation li {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+  }
+  .nav-options {
+    padding-right: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex: 1 0 auto;
+  }
+
+  .cat-item {
+    width: 25%;
+    height: 25vw;
+  }
+
+  .cat-item:first-child {
+    width: 50%;
+  }
+
+  .cat-item:last-child {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1240px) {
-    .nav-logo {
-        order: 1;
-        /* display: block; */
-        flex-wrap: wrap;
-        height: auto;
-        /* flex-direction: row; */
-        /* justify-content: space-between; */
-    }
-    .cart {
-        display: flex;
-        order: 3;
-        align-self: flex-end;
-        float: right;
-        /* flex: 0 1 50%; */
-        text-align: right;
-        width: 50px;
-    }
-    .navigation {
-        display: flex;
-        flex-wrap: wrap;
-        order: 2;
-        text-align: center;
-        /* flex-direction: row; */
-        list-style-type: none;
-        border-top: 1px solid #d7d7d7;
-        padding-top: .5rem;
-        vertical-align: baseline;
-    }
+  .nav-logo {
+    order: 0;
+    /* display: block; */
+    flex-wrap: wrap;
+    height: auto;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+  }
+  .cart {
+    display: flex;
+    order: 2;
+    align-self: flex-end;
+    float: right;
+    /* flex: 0 1 50%; */
+    text-align: right;
+    width: 50px;
+  }
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    order: 1;
+    text-align: center;
+    /* flex-direction: row; */
+    list-style-type: none;
+    padding-top: 0.5rem;
+    vertical-align: baseline;
+  }
 }
