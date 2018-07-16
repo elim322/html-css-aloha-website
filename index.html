@@ -8,12 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aloha Apparel Co.</title>
-    <!--Links for noormalize, font, and custom style-->
+    <!--Links for normalize, font, and custom style-->
     <link href="normalize.css" type="text/css" rel="stylesheet">
     <link href="project-01-files/fonts/fonts.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="s">
     <link href="mobile.css" type="text/css" rel="stylesheet">
-    </div>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <!--Navigation Bar-->
 
@@ -26,19 +26,19 @@
             <nav class="nav-options">
                 <ul class="navigation">
                     <li>
-                        <a href="#about" class="about">ABOUT</a>
+                        <a href=#about class="about">ABOUT</a>
                     </li>
 
                     <li>
-                        <a href="#shop" class="shop">SHOP</a>
+                        <a href=#shop class="shop">SHOP</a>
                     </li>
 
                     <li>
-                        <a href="#featured" class="featured">FEATURED</a>
+                        <a href=#featured class="featured">FEATURED</a>
                     </li>
 
                     <li>
-                        <a href="#updates" class="updates">UPDATES</a>
+                        <a href=#updates class="updates">UPDATES</a>
                     </li>
                 </ul>
             </nav>
@@ -49,169 +49,174 @@
     </div>
 
     <!--Section 1 Banner section with flower-background and girl image-->
-    <section class="hero-banner ">
-        <div class="banner-title container ">
-            <p class="collection ">New Collection</p>
-            <p class="season ">Spring Summer 2017</p>
+    <section class="hero-banner">
+        <div class="banner-title container">
+            <p class="collection">New Collection</p>
+            <p class="season">Spring Summer 2017</p>
         </div>
     </section>
 
     <!--Section 2 Main information with product headers-->
-    <section class="background-info ">
-        <div class="about container ">
-            <h2 class="hand-crafted ">Hand-Crafted
-                <span class="heavy ">Styles</span>
+    <section id="about" class="background-info">
+        <div class="about container">
+            <h2 class="hand-crafted">Hand-Crafted
+                <span class="heavy">Styles</span>
             </h2>
-            <p class="description ">Aloha Apparel Co. sells only the finest ready-to-
-                <br>travel clothing. Browse our current selection of
-                <br>products or sign-up for updates below.</p>
-        </div>
-        <div class="category-list ">
+            <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our<br>current selection of products or sign-up for updates below.</p>
+            </div>
+            </section>
+
+        <section id="shop" class="category-list ">
             <div class="mens cat-item">
                 <span class="category-name">
-                    <a href="#">MEN'S
-                    </a>
+                    <a class="shop-section" href="#">MEN'S</a>
                 </span>
             </div>
             <div class="trends cat-item">
                 <span class="category-name">
-                    <a href="#">TRENDS
-                    </a>
+                    <a class="shop-section" href="#">TRENDS</a>
                 </span>
             </div>
             <div class="glasses cat-item">
                 <span class="category-name">
-                    <a href="#">GLASSES</a>
+                    <a class="shop-section" href="#">GLASSES</a>
                 </span>
             </div>
             <div class="sale cat-item">
                 <span class="category-name">
-                    <a href="#">SALE</a>
+                    <a class="shop-section" href="#">SALE</a>
                 </span>
             </div>
             <div class="bags cat-item">
                 <span class="category-name">
-                    <a href="#">BAGS</a>
+                    <a class="shop-section" href="#">BAGS</a>
                 </span>
             </div>
             <div class="womens cat-item">
                 <span class="category-name">
-                    <a href="#">WOMEN'S</a>
+                    <a class="shop-section" href="#">WOMEN'S</a>
                 </span>
+            </div>
+    </section>
+
+    <!--Section 3 (Main Section part II) "Product Highlights "-->
+    <section class="product-carousel">
+        <div id="featured">
+            <h2 class="most-loved">Most-Loved</h2>
+               <span class="heavy">Products</span>
+        </div>
+        <div class="main-carousel container">
+            <div class="carousel-cell">
+                <img src="project-01-files/images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
+                <p class="product-type">DRESSES</p>
+                <p class="product-name">Stretch Knit Dress</p>
+                <p class="product-price">$169.00</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="project-01-files/images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
+                <p class="product-type">SHIRTS</p>
+                <p class="product-name">Cotton Blue Shirt</p>
+                <p class="product-price">$89.00</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="project-01-files/images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
+                <p class="product-type">DRESSES</p>
+                <p class="product-name">Checked Stretch Dress</p>
+                <p class="product-price">$129.00</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="project-01-files/images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
+                <p class="product-type">BAGS</p>
+                <p class="product-name">Blue Hipster Backpack</p>
+                <p class="product-price">$69.00</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="project-01-files/images/demin-overall-shorts.jpg" alt="denim-overall-shorts">
+                <p class="product-type">DENIM</p>
+                <p class="product-name">Denim Overall Shorts</p>
+                <p class="product-price">$89.00</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="project-01-files/images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
+                <p class="product-type">DRESSES</p>
+                <p class="product-name">Pink Dotted Dress</p>
+                <p class="product-price">$99.00</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="project-01-files/images/blue-silk-dress.jpg" alt="blue-silk-dress">
+                <p class="product-type">DRESSES</p>
+                <p class="product-name">Blue Silk Dress</p>
+                <p class="product-price">$119.00</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="project-01-files/images/cotton-yellow-tshirt.jpg" alt="cotton-yellow-tshirt">
+                <p class="product-type">SHIRTS</p>
+                <p class="product-name">Cotton Yellow Tshirt</p>
+                <p class="product-price">$39.00</p>
             </div>
         </div>
     </section>
 
-    <!--Section 3 (Main Section part II) "Product Highlights "-->
-    <section>
-        <div id="featured ">
-            <h3>Most-Loved Products</h3>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <img src="project-01-files/images/stretch-knit-dress.jpg ">
-                    <p class="product-type ">DRESSES</p>
-                    <p>Stretch Knit Dress</p>
-                    <p>$169.00</p>
-                </li>
-                <li>
-                    <img src="project-01-files/images/cotton-blue-shirt.jpg ">
-                    <p class="product-type ">SHIRTS</p>
-                    <p>Cotton Blue Shirt</p>
-                    <p>$89.00</p>
-                </li>
-                <li>
-                    <img src="project-01-files/images/checked-stretch-dress.jpg ">
-                    <p class="product-type ">DRESSES</p>
-                    <p>Checked Stretch Dress</p>
-                    <p>$129.00</p>
-                </li>
-                <li>
-                    <img src="project-01-files/images/blue-hipster-backpack.jpg ">
-                    <p class="product-type ">BAGS</p>
-                    <p>Blue Hipster Backpack</p>
-                    <p>$69.00</p>
-                </li>
-                <li>
-                    <img src="project-01-files/images/demin-overall-shorts.jpg ">
-                    <p class="product-type ">DENIM</p>
-                    <p>Denim Overall Shorts</p>
-                    <p>$89.00</p>
-                </li>
-                <li>
-                    <img src="project-01-files/images/pink-dotted-dress.jpg ">
-                    <p class="product-type ">DRESSES</p>
-                    <p>Pink Dotted Dress</p>
-                    <p>$99.00</p>
-                </li>
-                <li>
-                    <img src="project-01-files/images/blue-silk-dress.jpg ">
-                    <p class="product-type ">DRESSES</p>
-                    <p>Blue Silk Dress</p>
-                    <p>$119.00</p>
-                </li>
-                <li>
-                    <img src="project-01-files/images/cotton-yellow-tshirt.jpg ">
-                    <p class="product-type ">SHIRTS</p>
-                    <p>Cotton Yellow Tshirt</p>
-                    <p>$39.00</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-
     <!--Form Submission Section-->
-    <section class="form ">
-        <div class="sign-up-for-updates container ">
-            <h3>Sign-up for Updates</h3>
+    <section id="updates" class="form">
+        <div class="sign-up-for-updates container">
+            <h2>Sign-up for Updates</h2>
             <p>Stay updated on our latest product releases, be the first to find out about
                 <br>upcoming sales, and get free style tips from our blog. Unsuscribe at any time.</p>
-        </div>
-        <div>
-            <form class="container " action="Submit.php " method="get ">
-                <input type="email " name="Your_Email " id="your_email " Value placeholder="Your Email " />
-                <button type="subscribe ">Subscribe</button>
-            </form>
-        </div>
+            </div>
+            <div class="form-submit">
+                <form class="form-submit-button">
+                <input type="email" name="Your_Email" id="your-email" Value placeholder="Your Email"/>
+                <input type="submit" name="Subscribe" value="subscribe" id="subscribe">
+                </form>
+            </div>
     </section>
 
     <!--footer section-->
-    <footer class="footer ">
-        <div class="company-info ">
-            <p>2017 Aloha Apparel Co.
-                <br>Powered by HTML and CSS.</p>
-            <p>604-604-6040. info@alohaapparel.com</p>
-            <p>1490 W Broadway
-                <br>Vancouver, BC, Canada</p>
+    <footer class="footer">
+        <div class="company-info">
+            <div class="copyright">
+                <p>© 2017 Aloha Apparel Co.</p>
+                <p>Powered by HTML and CSS.</p>
+            </div>
+            <div class="contact-info">
+                <p>604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel</a></p>
+            </div>
+            <div class="address">
+                <p>1490 W Broadway</p>
+                <p>Vancouver, BC, Canada</p>
+            </div>
         </div>
 
-        <!--Social Media Links (to be filled up)-->
-        <div class="social-media ">
-            <ul class="social-icons ">
+        <!--Social Media Links-->
+        <div class="social-media">
+            <ul class="social-icons">
                 <li>
-                    <i class="fab fa-facebook-f "></i>
-                    <a href="#Facebook ">Facebook</a>
+                    <i class="fab fa-facebook-f"></i>
+                    <a class="social-media-name" href="#Facebook">Facebook</a>
                 </li>
-                    <li>
-                        <i class="fab fa-twitter "></i>
-                        <a href="#Twitter ">Twitter</a>
-                    </li>
-                        <li>
-                            <i class="fab fa-instagram "></i>
-                            <a href="#instagram ">Instagram</a>
-                        </li>
-                            <li>
-                                <i class="fab fa-pinterest "></i>
-                                <a href="#Pinterest ">Pinterest</a>
-                            </li>
-                                <li>
-                                    <i class="fab fa-google-plus-g "></i>
-                                    <a href="#Google+ ">Google+</a>
-                                </li>
+                <li>
+                    <i class="fab fa-twitter"></i>
+                    <a class="social-media-name" href="#Twitter">Twitter</a>
+                </li>
+                <li>
+                    <i class="fab fa-instagram"></i>
+                    <a class="social-media-name" href="#instagram">Instagram</a>
+                </li>
+                <li>
+                    <i class="fab fa-pinterest"></i>
+                    <a class="social-media-name" href="#Pinterest">Pinterest</a>
+                </li>
+                <li>
+                    <i class="fab fa-google-plus-g"></i>
+                    <a class="social-media-name" href="#Google+">Google+</a>
+                </li>
             </ul>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="script2.js"></script>
 </body>
 
