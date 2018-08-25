@@ -5,6 +5,28 @@
           box-sizing: border-box;
   outline: none;
 }
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  clip: auto !important;
+  display: block;
+  height: auto;
+  left: 5px;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* above all content */
+}
+
+/* #about[tabindex="-1"]:focus {
+  outline: 0;
+} */
+
 
 .parent-wrapper {
   height: 100%;
@@ -206,8 +228,9 @@ h2 {
 }
 
 section .heavy {
-  font-style: normal; 
-  font-weight: 700px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Playfair Display", serif;
 }
 /* Category Boxes */
 .category-list {
