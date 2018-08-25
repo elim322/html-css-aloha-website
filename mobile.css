@@ -561,10 +561,19 @@ button:hover {
 
 .footer a {
   color: #fff;
+  text-decoration: none; 
 }
 
 .copyright {
   line-height: 2.3px;
+  padding-bottom: 0.5rem;
+}
+.copyright p {
+  padding-bottom: 0.2rem;
+}
+
+.contact-info {
+  padding-bottom: 0.5rem;
 }
 
 .address {
@@ -572,9 +581,13 @@ button:hover {
   line-height: 2.3px;
 }
 
+.address p {
+  padding-bottom: 0.2rem; 
+}
+
 .social-icons {
   color: white;
-  margin-top: 2rem; 
+  padding-top: 2rem; 
   font-family: 'Raleway Web', sans-serif;
   list-style: none; 
   text-decoration: none;
@@ -582,9 +595,11 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   line-height: 1.5rem; 
-  margin-right: 2rem; 
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
 }
 
 .social-media-name {
@@ -657,14 +672,38 @@ button:hover {
     text-align: left; 
     padding-left: 20px;
   }
+  .footer.container {
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto; 
+  }
 
   .social-icons {
     text-align: right; 
+    flex-direction: column;
+    padding: 0;
   }
   .social-media-name {
     display: inline;
     vertical-align: baseline;
   }
+}
+
+.container {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.social-indiv {
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.social-media {
+  width: 20%;
 }
 
 @media screen and (min-width: 1240px) {
@@ -716,9 +755,24 @@ button:hover {
     border-top: 1px solid white; 
   }
 
+  .container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px; 
+    margin: 0 auto; 
+  }
+
   .social-icons {
     text-align: right; 
+    flex-direction: column; 
   }
+
+  .social-indiv {
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+  
 
   .social-media-name {
     display: inline;
