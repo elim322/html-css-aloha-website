@@ -145,7 +145,7 @@
 }
 
 .form {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/wave-bkgd.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/wave-bkgd.jpg);
   background-position: center, center bottom;
   background-size: cover, 1200px, cover;
   background-repeat: no-repeat;
@@ -320,7 +320,7 @@ section {
 }
 
 .hero-banner {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/banner-girl.png), url(assets/images/flower-bkgd.jpg);
   background-position: center, center bottom, 30%;
   background-size: cover, 135px, cover;
   background-repeat: no-repeat;
@@ -423,7 +423,7 @@ section {
   text-align: center;
 }
 .category-list .mens {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/mens-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/mens-category.jpg);
   background-position: center;
   background-size: cover;
   flex: 2 0 100%;
@@ -439,7 +439,7 @@ section {
   }
 }
 .category-list .trends {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/trends-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/trends-category.jpg);
   background-position: right;
   background-size: cover;
   flex: 1 0 50%;
@@ -455,7 +455,7 @@ section {
   }
 }
 .category-list .glasses {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/glasses-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/glasses-category.jpg);
   background-position: left;
   background-size: cover;
   flex: 1 0 50%;
@@ -471,7 +471,7 @@ section {
   }
 }
 .category-list .sale {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/sale-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/sale-category.jpg);
   background-position: right;
   background-size: cover;
   flex: 1 0 50%;
@@ -487,7 +487,7 @@ section {
   }
 }
 .category-list .bags {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/bags-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/bags-category.jpg);
   background-position: left;
   background-size: cover;
   flex: 1 0 50%;
@@ -503,7 +503,7 @@ section {
   }
 }
 .category-list .womens {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/womens-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/images/womens-category.jpg);
   background-position: center;
   background-size: cover;
   flex: 2 0 100%;
