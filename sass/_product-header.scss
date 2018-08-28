@@ -1,0 +1,25 @@
+//hand-crafted styles 
+.about {
+  text-align: center;
+  padding: 4rem 0;
+  @include tablet {
+    max-width: 45rem;
+  }
+  .hand-crafted {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 2.4rem;
+    font-family: "Playfair Display", Arial, serif;
+    .strong {
+      font-style: normal; 
+      font-weight: 700; 
+      font-size: 2.4rem;
+      font-family: "Playfair Display", Arial, serif;
+    } 
+  }
+  p {
+    font-size: 1.15rem;
+    font-family: "Raleway", Arial, serif;
+    font-weight: 200; 
+  }
+}

@@ -68,5 +68,17 @@ $(document).ready(function() {
     });
  });
 
+ console.log('hellos');
+ //adding items to cart 
+
+ var itemCount = 0;
+ $(".carousel-cell button").on("click", function(event) {
+   event.preventDefault();
+    itemCount++
+   // try appending the item count to cart
+    itemCount().append('.cart')
+
+ });
+
   // end of document jquery
 });

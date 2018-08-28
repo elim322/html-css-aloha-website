@@ -1,0 +1,700 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Light.eot");
+  src: url("Raleway-Light.eot?#iefix") format("embedded-opentype"), url("Raleway-Light.woff2") format("woff2"), url("Raleway-Light.woff") format("woff"), url("Raleway-Light.ttf") format("truetype"), url("Raleway-Light.svg#Raleway-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-LightItalic.eot");
+  src: url("Raleway-LightItalic.eot?#iefix") format("embedded-opentype"), url("Raleway-LightItalic.woff2") format("woff2"), url("Raleway-LightItalic.woff") format("woff"), url("Raleway-LightItalic.ttf") format("truetype"), url("Raleway-LightItalic.svg#Raleway-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Medium.eot");
+  src: url("Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("Raleway-Medium.woff2") format("woff2"), url("Raleway-Medium.woff") format("woff"), url("Raleway-Medium.ttf") format("truetype"), url("Raleway-Medium.svg#Raleway-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-MediumItalic.eot");
+  src: url("Raleway-MediumItalic.eot?#iefix") format("embedded-opentype"), url("Raleway-MediumItalic.woff2") format("woff2"), url("Raleway-MediumItalic.woff") format("woff"), url("Raleway-MediumItalic.ttf") format("truetype"), url("Raleway-MediumItalic.svg#Raleway-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-Italic.eot");
+  src: url("PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-Italic.woff2") format("woff2"), url("PlayfairDisplay-Italic.woff") format("woff"), url("PlayfairDisplay-Italic.ttf") format("truetype"), url("PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-BoldItalic.eot");
+  src: url("PlayfairDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("PlayfairDisplay-BoldItalic.woff") format("woff"), url("PlayfairDisplay-BoldItalic.ttf") format("truetype"), url("PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-Regular.eot");
+  src: url("PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-Regular.woff2") format("woff2"), url("PlayfairDisplay-Regular.woff") format("woff"), url("PlayfairDisplay-Regular.ttf") format("truetype"), url("PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("PlayfairDisplay-Bold.eot");
+  src: url("PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-Bold.woff2") format("woff2"), url("PlayfairDisplay-Bold.woff") format("woff"), url("PlayfairDisplay-Bold.ttf") format("truetype"), url("PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+.footer {
+  background-color: #242424;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 4rem 0;
+}
+@media screen and (min-width: 600px) {
+  .footer {
+    text-align: left;
+  }
+}
+.footer .container {
+  padding: 0 2%;
+  margin: 0 auto;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  line-height: 2.3px;
+  padding-bottom: 0.5rem;
+  font-family: "Playfair Display", Arial, serif;
+}
+.copyright p {
+  padding-bottom: 0.2rem;
+  font-family: "Playfair Display", Arial, serif;
+}
+
+.address {
+  color: #969696;
+  font-family: "Playfair Display", Arial, serif;
+}
+
+.contact-info {
+  padding-bottom: 0.5rem;
+  font-family: "Playfair Display", Arial, serif;
+}
+
+.social-icons {
+  color: white;
+  padding-top: 2rem;
+  font-family: "Raleway Web", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.5rem;
+  margin: 0 auto;
+  width: 12.5rem;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0;
+}
+@media screen and (min-width: 600px) {
+  .social-icons {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0;
+    text-align: left;
+    padding-right: 1rem;
+  }
+}
+.social-icons a {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .social-icons a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: inline;
+  }
+}
+.social-icons li {
+  font-family: "Raleway", Arial, serif;
+  font-weight: 200;
+}
+@media screen and (min-width: 600px) {
+  .social-icons li {
+    padding-bottom: 1rem;
+  }
+}
+
+.form {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/wave-bkgd.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/wave-bkgd.jpg);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/wave-bkgd.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/wave-bkgd.jpg);
+  background-position: center, center bottom;
+  background-size: cover, 1200px, cover;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+  margin-bottom: 8px;
+  border: none;
+  text-align: center;
+}
+@media screen and (min-width: 1240px) {
+  .form {
+    background-size: cover, 1500px, cover;
+  }
+}
+.form .sign-up-for-updates {
+  text-align: center;
+  font-size: 1.15rem;
+  margin: 0 auto;
+  color: #fff;
+}
+.form .sign-up-for-updates h2 {
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 200;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(99, 99, 99, 0.8);
+  font-family: "Playfair Display", Arial, serif;
+}
+.form .sign-up-for-updates p {
+  font-size: 1.15rem;
+  font-weight: 200;
+  text-shadow: 2px 2px 4px rgba(99, 99, 99, 0.8);
+  font-family: "Raleway", Arial, serif;
+}
+.form .sign-up-for-updates .strong {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Playfair Display", Arial, serif;
+}
+
+.form-submit {
+  text-align: center;
+}
+.form-submit input[type=email] {
+  padding: 0.5rem 1.75rem;
+  padding-right: 50px;
+  max-width: 23.75rem;
+  width: 100%;
+  height: 3.125rem;
+  border-radius: 25px;
+  font-family: "Raleway", Arial, serif;
+  font-weight: 200;
+}
+.form-submit input[type=submit] {
+  background: #e2574c;
+  margin-left: -150px;
+  height: 2.5rem;
+  border-radius: 25px;
+  width: 8.75rem;
+  color: white;
+  font-family: "Raleway", Arial, serif;
+}
+
+.container {
+  padding: 0 2%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1240px) {
+  .container {
+    max-width: 81.25rem;
+  }
+}
+
+.site-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+@media screen and (min-width: 600px) {
+  .site-header {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+.logo {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+.logo .aloha-logo {
+  max-width: 55%;
+  height: auto;
+}
+@media screen and (min-width: 600px) {
+  .logo .aloha-logo {
+    max-width: 7.5rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .logo .aloha-logo {
+    max-width: 10rem;
+  }
+}
+
+.cart {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  cursor: pointer;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+  text-align: right;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+@media screen and (min-width: 600px) {
+  .cart {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+.cart .shopping-cart {
+  max-width: 30%;
+  height: auto;
+}
+@media screen and (min-width: 600px) {
+  .cart .shopping-cart {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .cart .shopping-cart {
+    width: 20%;
+  }
+}
+
+.nav-options {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100%;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+@media screen and (min-width: 600px) {
+  .nav-options {
+    width: 53%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+.nav-options .navigation {
+  width: 100%;
+  list-style: none;
+  padding-top: 0.5rem;
+  padding-left: 0;
+  text-align: center;
+  border-top: solid 1px #d7d7d7;
+}
+@media screen and (min-width: 600px) {
+  .nav-options .navigation {
+    border-top: 0;
+    padding-top: 0;
+    margin: 0;
+  }
+}
+.nav-options .navigation li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.nav-options .navigation li a {
+  text-decoration: none;
+  color: #e2574c;
+  font-family: "Raleway", sans-serif;
+}
+
+section {
+  padding: 4 0;
+}
+
+.hero-banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
+  background-position: center, center bottom, 30%;
+  background-size: cover, 135px, cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+@media screen and (min-width: 1240px) {
+  .hero-banner {
+    background-size: cover, 200px, cover;
+    height: 550px;
+  }
+}
+
+.banner-title {
+  padding: 0 2%;
+  margin: 0 auto;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  width: 80%;
+  line-height: 1;
+  color: white;
+  font-family: "Playfair Display", Arial, serif;
+  font-weight: 700;
+  position: absolute;
+  text-shadow: 2px 2px 4px rgba(99, 99, 99, 0.8);
+}
+@media screen and (min-width: 600px) {
+  .banner-title {
+    max-width: 45rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .banner-title {
+    max-width: 77.5rem;
+  }
+}
+.banner-title .collection {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-family: "Raleway", Arial, serif;
+  text-transform: uppercase;
+}
+.banner-title .season {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Playfair Display", Arial, serif;
+}
+@media screen and (min-width: 600px) {
+  .banner-title .season {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .banner-title .season {
+    font-size: 4rem;
+  }
+}
+
+.about {
+  text-align: center;
+  padding: 4rem 0;
+}
+@media screen and (min-width: 600px) {
+  .about {
+    max-width: 45rem;
+  }
+}
+.about .hand-crafted {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 2.4rem;
+  font-family: "Playfair Display", Arial, serif;
+}
+.about .hand-crafted .strong {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: "Playfair Display", Arial, serif;
+}
+.about p {
+  font-size: 1.15rem;
+  font-family: "Raleway", Arial, serif;
+  font-weight: 200;
+}
+
+.cat-item {
+  height: 50vw;
+}
+@media screen and (min-width: 600px) {
+  .cat-item {
+    height: 25vw;
+    width: 25%;
+  }
+}
+
+.category-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+.category-list .mens {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/mens-category.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/mens-category.jpg);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/mens-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/mens-category.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 0 100%;
+          flex: 2 0 100%;
+  max-width: 100%;
+  border: 3px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .category-list .mens {
+    max-width: 50%;
+  }
+}
+.category-list .trends {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/trends-category.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/trends-category.jpg);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/trends-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/trends-category.jpg);
+  background-position: right;
+  background-size: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  max-width: 50%;
+  border: 3px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .category-list .trends {
+    max-width: 25%;
+  }
+}
+.category-list .glasses {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/glasses-category.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/glasses-category.jpg);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/glasses-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/glasses-category.jpg);
+  background-position: left;
+  background-size: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  max-width: 50%;
+  border: 3px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .category-list .glasses {
+    max-width: 25%;
+  }
+}
+.category-list .sale {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/sale-category.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/sale-category.jpg);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/sale-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/sale-category.jpg);
+  background-position: right;
+  background-size: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  max-width: 50%;
+  border: 3px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .category-list .sale {
+    max-width: 25%;
+  }
+}
+.category-list .bags {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/bags-category.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/bags-category.jpg);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/bags-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/bags-category.jpg);
+  background-position: left;
+  background-size: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  max-width: 50%;
+  border: 3px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .category-list .bags {
+    max-width: 25%;
+  }
+}
+.category-list .womens {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/womens-category.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/womens-category.jpg);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/womens-category.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/womens-category.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 0 100%;
+          flex: 2 0 100%;
+  max-width: 100%;
+  border: 3px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .category-list .womens {
+    max-width: 50%;
+  }
+}
+
+a.shop-section {
+  color: white;
+  text-decoration: none;
+  font-size: 2.3rem;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px rgba(99, 99, 99, 0.8);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Raleway", Arial, serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.product-carousel .container {
+  padding: 0;
+}
+
+.featured-title {
+  text-align: center;
+}
+.featured-title .most-loved {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 2.4rem;
+  font-family: "Playfair Display", Arial, serif;
+}
+.featured-title .most-loved .strong {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: "Playfair Display", Arial, serif;
+}
+
+.carousel-cell {
+  padding: 3rem 2rem;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 600px) {
+  .carousel-cell {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .carousel-cell {
+    width: 25%;
+  }
+}
+.carousel-cell img {
+  height: auto;
+  max-width: 100%;
+}
+.carousel-cell .product-type {
+  color: #969696;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-family: "Raleway", Arial, serif;
+}
+.carousel-cell .product-name {
+  color: #e2574c;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", Arial, serif;
+}
+.carousel-cell .product-price {
+  color: #969696;
+  font-weight: 700;
+  font-family: "Raleway", Arial, serif;
+}

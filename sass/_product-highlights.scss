@@ -1,0 +1,134 @@
+//product highlights
+.cat-item {
+  height: 50vw;
+  @include tablet {
+    height: 25vw;
+    width: 25%;
+  }
+}
+.category-list {
+  display: flex; 
+  flex-wrap: wrap;
+  text-align: center;
+  .mens {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url(project-01-files/images/mens-category.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 2 0 100%; 
+    max-width: 100%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    @include tablet {
+      max-width: 50%;
+    }
+  }
+  .trends {
+    background-image:
+    linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ), url(project-01-files/images/trends-category.jpg);
+    background-position: right;
+    background-size: cover;
+    flex: 1 0 50%;
+    max-width: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    @include tablet {
+      max-width: 25%; 
+    }
+  }
+  .glasses {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url(project-01-files/images/glasses-category.jpg);
+    background-position: left;
+    background-size: cover;
+    flex: 1 0 50%;
+    max-width: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    @include tablet {
+      max-width: 25%; 
+    }
+  }
+  .sale {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url(project-01-files/images/sale-category.jpg);
+    background-position: right;
+    background-size: cover;
+    flex: 1 0 50%;
+    max-width: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    @include tablet {
+      max-width: 25%; 
+    }
+  }
+  .bags {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url(project-01-files/images/bags-category.jpg);
+    background-position: left;
+    background-size: cover;
+    flex: 1 0 50%;
+    max-width: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    @include tablet {
+      max-width: 25%; 
+    }
+  }
+  .womens {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url(project-01-files/images/womens-category.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 2 0 100%;
+    max-width: 100%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    @include tablet {
+      max-width: 50%;
+    }
+  }
+}
+a.shop-section {
+    color: white; 
+    text-decoration: none; 
+    font-size: 2.3rem;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
+    top: 50%; //moves down 50
+    left: 50%; // moves right 50
+    position: absolute; 
+    transform: translate(-50%, -50%); // moves it diagonally 50
+    font-family: "Raleway", Arial, serif;
+}

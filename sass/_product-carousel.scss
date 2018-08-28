@@ -1,0 +1,55 @@
+
+//product carousel
+.product-carousel .container {
+  padding:0; 
+}
+.featured-title {
+  text-align: center; 
+  .most-loved {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 2.4rem; 
+    font-family: "Playfair Display", Arial, serif;
+    .strong {
+      font-style: normal; 
+      font-weight: 700; 
+      font-size: 2.4rem; 
+      font-family: "Playfair Display", Arial, serif;
+    }
+  }
+}
+
+.carousel-cell {
+  padding: 3rem 2rem;
+  width: 100%;
+  text-align: center;
+  @include tablet {
+    width: 50%;
+  }
+  @include desktop {
+    width: 25%;
+  }
+  img {
+    height: auto; 
+    max-width: 100%;
+  }
+  .product-type {
+    color: #969696;
+    font-size: .75rem;
+    margin-bottom: .75rem; 
+    font-family: "Raleway", Arial, serif;
+  }
+  
+  .product-name {
+    color: #e2574c; 
+    font-size: 1.5rem; 
+    margin-bottom: 1rem;
+    font-family: "Playfair Display", Arial, serif;
+  }
+  
+  .product-price {
+    color: #969696;
+    font-weight: 700;
+    font-family: "Raleway", Arial, serif;
+  }
+}

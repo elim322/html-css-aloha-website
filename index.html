@@ -12,17 +12,18 @@
     <link href="normalize.css" type="text/css" rel="stylesheet">
     <link href="project-01-files/fonts/fonts.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="s">
-    <link href="mobile.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <!--Navigation Bar-->
 
 <body>
-    <a class="screen-reader-text" href="#about">Skip to content</a>
-    <div class="parent-wrapper">
-        <header class="header container">
-            <div class="nav-logo">
+        <header class="site-header container">
+            <div class="logo">
                 <img class="aloha-logo" src="project-01-files/images/aloha-logo.svg" alt="Aloha APPAREL CO. Logo 2017">
+            </div>
+            <div class="cart">
+                <img class="shopping-cart" src="project-01-files/images/cart-icon.svg" alt="Shopping cart-icon">
             </div>
             <nav class="nav-options">
                 <ul class="navigation">
@@ -43,12 +44,8 @@
                     </li>
                 </ul>
             </nav>
-            <div class="cart">
-                <img class="shopping-cart" src="project-01-files/images/cart-icon.svg" alt="Shopping cart-icon">
-            </div>
-        </header>
-    </div>
 
+        </header>
     <!--Section 1 Banner section with flower-background and girl image-->
     <section class="hero-banner">
         <div class="banner-title container">
@@ -60,10 +57,8 @@
     <!--Section 2 Main information with product headers-->
     <section id="about" class="background-info" tabindex="-1">
         <div class="about container">
-            <h2 class="hand-crafted">Hand-Crafted
-                <span class="heavy">Styles</span>
-            </h2>
-            <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our<br>current selection of products or sign-up for updates below.</p>
+            <h2 class="hand-crafted">Hand-Crafted <span class="strong">Styles</span></h2>
+            <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
             </div>
             </section>
 
@@ -101,17 +96,18 @@
     </section>
 
     <!--Section 3 (Main Section part II) "Product Highlights "-->
-    <section class="product-carousel">
-        <div id="featured">
-            <h2 class="most-loved">Most-Loved<span class="heavy"> Products</span></h2>
+    <section class="product-carousel container">
+        <div id="featured" class="featured-title">
+            <h2 class="most-loved">Most-Loved<span class="strong"> Products</span></h2>
               
         </div>
-        <div class="main-carousel container">
+        <div class="main-carousel">
             <div class="carousel-cell">
                 <img src="project-01-files/images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
                 <p class="product-type">DRESSES</p>
                 <p class="product-name">Stretch Knit Dress</p>
                 <p class="product-price">$169.00</p>
+                <button>Add</button>
             </div>
             <div class="carousel-cell">
                 <img src="project-01-files/images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
@@ -161,14 +157,14 @@
     <!--Form Submission Section-->
     <section id="updates" class="form">
         <div class="sign-up-for-updates container">
-            <h2>Sign-up for Updates</h2>
+            <h2>Sign-up for <span class="strong">Updates</span></h2>
             <p>Stay updated on our latest product releases, be the first to find out about
                 <br>upcoming sales, and get free style tips from our blog. Unsuscribe at any time.</p>
             </div>
             <div class="form-submit">
                 <form class="form-submit-button">
                 <input type="email" name="Your_Email" id="your-email" Value placeholder="Your Email"/>
-                <input type="submit" name="Subscribe" value="subscribe" id="subscribe">
+                <input type="submit" name="Subscribe" value="Subscribe" id="subscribe">
                 </form>
             </div>
     </section>
@@ -193,23 +189,23 @@
         <!--Social Media Links-->
         <div class="social-media">
             <ul class="social-icons">
-                <li class="social-indiv">
+                <li>
                     <i class="fab fa-facebook-f"></i>
                     <a class="social-media-name" href="#Facebook">Facebook</a>
                 </li>
-                <li class="social-indiv">
+                <li>
                     <i class="fab fa-twitter"></i>
                     <a class="social-media-name" href="#Twitter">Twitter</a>
                 </li>
-                <li class="social-indiv">
+                <li>
                     <i class="fab fa-instagram"></i>
                     <a class="social-media-name" href="#instagram">Instagram</a>
                 </li>
-                <li class="social-indiv">
+                <li>
                     <i class="fab fa-pinterest"></i>
                     <a class="social-media-name" href="#Pinterest">Pinterest</a>
                 </li>
-                <li class="social-indiv">
+                <li>
                     <i class="fab fa-google-plus-g"></i>
                     <a class="social-media-name" href="#Google+">Google+</a>
                 </li>
