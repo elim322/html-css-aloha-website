@@ -73,12 +73,8 @@
 }
 @media screen and (min-width: 600px) {
   .footer .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
 }
 .footer a {
@@ -112,25 +108,18 @@
   font-family: "Raleway Web", sans-serif;
   list-style: none;
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   line-height: 1.5rem;
   margin: 0 auto;
   width: 12.5rem;
   text-align: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-left: 0;
 }
 @media screen and (min-width: 600px) {
   .social-icons {
     margin-top: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding-top: 0;
     text-align: left;
     padding-right: 1rem;
@@ -141,10 +130,7 @@
 }
 @media screen and (min-width: 600px) {
   .social-icons a {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     display: inline;
   }
 }
@@ -159,9 +145,6 @@
 }
 
 .form {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/wave-bkgd.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/wave-bkgd.jpg);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/wave-bkgd.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/wave-bkgd.jpg);
   background-position: center, center bottom;
   background-size: cover, 1200px, cover;
@@ -236,33 +219,22 @@
 }
 
 .site-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding-bottom: 0.5rem;
   padding-top: 1rem;
 }
 @media screen and (min-width: 600px) {
   .site-header {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 }
 
 .logo {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50%;
-          flex: 0 1 50%;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  align-self: flex-start;
+  flex: 0 1 50%;
+  order: 1;
 }
 .logo .aloha-logo {
   max-width: 55%;
@@ -280,22 +252,15 @@
 }
 
 .cart {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   cursor: pointer;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 40%;
-          flex: 0 1 40%;
+  flex: 0 1 40%;
   text-align: right;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  order: 2;
 }
 @media screen and (min-width: 600px) {
   .cart {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
+    order: 3;
   }
 }
 .cart .shopping-cart {
@@ -314,23 +279,15 @@
 }
 
 .nav-options {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  flex: 1 0 auto;
+  align-self: center;
   width: 100%;
-  -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
+  order: 3;
 }
 @media screen and (min-width: 600px) {
   .nav-options {
     width: 53%;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    order: 2;
   }
 }
 .nav-options .navigation {
@@ -363,9 +320,6 @@ section {
 }
 
 .hero-banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/banner-girl.png), url(project-01-files/images/flower-bkgd.jpg);
   background-position: center, center bottom, 30%;
   background-size: cover, 135px, cover;
@@ -464,31 +418,19 @@ section {
 }
 
 .category-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   text-align: center;
 }
 .category-list .mens {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/mens-category.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/mens-category.jpg);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/mens-category.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/mens-category.jpg);
   background-position: center;
   background-size: cover;
-  -webkit-box-flex: 2;
-      -ms-flex: 2 0 100%;
-          flex: 2 0 100%;
+  flex: 2 0 100%;
   max-width: 100%;
   border: 3px solid white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: relative;
 }
 @media screen and (min-width: 600px) {
@@ -497,23 +439,14 @@ section {
   }
 }
 .category-list .trends {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/trends-category.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/trends-category.jpg);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/trends-category.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/trends-category.jpg);
   background-position: right;
   background-size: cover;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 50%;
-          flex: 1 0 50%;
+  flex: 1 0 50%;
   max-width: 50%;
   border: 3px solid white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: relative;
 }
 @media screen and (min-width: 600px) {
@@ -522,23 +455,14 @@ section {
   }
 }
 .category-list .glasses {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/glasses-category.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/glasses-category.jpg);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/glasses-category.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/glasses-category.jpg);
   background-position: left;
   background-size: cover;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 50%;
-          flex: 1 0 50%;
+  flex: 1 0 50%;
   max-width: 50%;
   border: 3px solid white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: relative;
 }
 @media screen and (min-width: 600px) {
@@ -547,23 +471,14 @@ section {
   }
 }
 .category-list .sale {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/sale-category.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/sale-category.jpg);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/sale-category.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/sale-category.jpg);
   background-position: right;
   background-size: cover;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 50%;
-          flex: 1 0 50%;
+  flex: 1 0 50%;
   max-width: 50%;
   border: 3px solid white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: relative;
 }
 @media screen and (min-width: 600px) {
@@ -572,23 +487,14 @@ section {
   }
 }
 .category-list .bags {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/bags-category.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/bags-category.jpg);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/bags-category.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/bags-category.jpg);
   background-position: left;
   background-size: cover;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 50%;
-          flex: 1 0 50%;
+  flex: 1 0 50%;
   max-width: 50%;
   border: 3px solid white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: relative;
 }
 @media screen and (min-width: 600px) {
@@ -597,23 +503,14 @@ section {
   }
 }
 .category-list .womens {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(project-01-files/images/womens-category.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/womens-category.jpg);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/womens-category.jpg);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-01-files/images/womens-category.jpg);
   background-position: center;
   background-size: cover;
-  -webkit-box-flex: 2;
-      -ms-flex: 2 0 100%;
-          flex: 2 0 100%;
+  flex: 2 0 100%;
   max-width: 100%;
   border: 3px solid white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: relative;
 }
 @media screen and (min-width: 600px) {
@@ -631,15 +528,12 @@ a.shop-section {
   top: 50%;
   left: 50%;
   position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: "Raleway", Arial, serif;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .product-carousel .container {
@@ -698,3 +592,5 @@ a.shop-section {
   font-weight: 700;
   font-family: "Raleway", Arial, serif;
 }
+
+/*# sourceMappingURL=style.css.map */
